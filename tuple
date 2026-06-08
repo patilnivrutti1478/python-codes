@@ -1,0 +1,46 @@
+# # create tuple
+colours = ("red","yellow", "orange ") # this is a tuple 
+
+# fruit =(tuple("apple")) # (,) are the inportant for single word the tuple withoun use (,)are use to the tuple function 
+# # chaking type 
+# print(type(colours))
+# print(type(fruit))
+
+# # cheking len 
+# print(len(colours))
+# print(len(fruit))
+
+# # accesing item in tuple 
+# print(colours[2]) # possitiv indexing 
+# print(colours[-2])# nigaive indexing 
+# print(colours[1:3]) # range indexing possitive 
+# print(colours[-2 :]) # nigative range indexing 
+
+
+# # items are existing in tuple 
+
+# if "orange " in colours :
+#       print("green is part of tuple ") 
+
+# # travels the tuple 
+
+# for i in colours :
+#      print(i)
+
+# # concatinate 2 colours
+
+# more_colours = ("white", "golden")
+# colours = colours + more_colours
+# print(colours)
+
+# # unpacking a tuple 
+colour1, colour2, colour3 = colours
+print(colour1,colour2,colour3)
+
+
+
+
+
+
+
+
